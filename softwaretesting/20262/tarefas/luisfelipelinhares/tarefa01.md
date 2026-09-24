@@ -125,3 +125,22 @@ Tests:       7 passed, 7 total
 Snapshots:   0 total
 Time:        0.385 s, estimated 1 s
 Ran all test suites.
+
+## 3 Gerar cobertura
+
+Execute o comando abaixo:
+
+pnmp test:covarage
+
+
+A execução apresentará os dados de cobertura, como no exemplo abaixo:
+
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
+All files |   77.77 |      100  |      75 |   77.77 |
+app.js    |   77.77 |      100  |      75 |   77.77 | 11,17,54-56,74-76,98-100,118-120
+
+Test Suites: 1 passed, 1 total
+Tests:       7 passed, 7 total
+Snapshots:   0 total
+Time:        1.148 s
+Ran all test suites.
