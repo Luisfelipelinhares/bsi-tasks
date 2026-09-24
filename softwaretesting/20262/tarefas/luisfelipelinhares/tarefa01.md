@@ -44,3 +44,13 @@ https://github.com/pauloandrehxh/arena-ufrn
 
  - Documentação oficial do Jest
 - Site oficial do Jest
+
+## 4\. IDE e ferramentas de Debug
+
+ A IDE utilizada para o desenvolvimento pode ser o **IntelliJ IDEA**, que possui suporte a JavaScript e Node.js por meio de seus recursos e plugins.
+
+ O debugger integrado permite executar o programa passo a passo e investigar o estado da aplicação. Entre seus recursos estão **breakpoints**, execução linha a linha, inspeção de variáveis, avaliação de expressões e acompanhamento do ponto atual de execução.  JetBrains+1
+
+ Esses recursos são úteis para encontrar erros na lógica dos serviços e controladores da API sem precisar adicionar vários `console.log()` ao código.
+
+ **Link:**  Documentação do Debugger do IntelliJ IDEA
