@@ -80,3 +80,32 @@ https://github.com/pauloandrehxh/arena-ufrn
  **Resumo:** mocks substituem dependências reais durante o teste, permitindo testar apenas o comportamento do componente que está sendo analisado. No Arena UFRN, isso pode ser útil principalmente para testar os serviços sem depender diretamente do banco SQLite.\
  :::
  Abaixo está um roteiro **passo a passo, pensado para terceiros**, para cumprir os itens 3–8 no projeto `arena-ufrn`, assumindo **Node.js + Jest**. Como o repositório é externo, os comandos devem ser executados na cópia local do projeto.
+
+ ## 1\. Clonar e preparar o projeto
+
+```
+git clone https://github.com/pauloandrehxh/arena-ufrn.git
+cd arena-ufrn
+npm install
+```
+
+ Confirme que o projeto executa normalmente:
+
+```
+npm test
+```
+
+ Se ainda não existir Jest:
+
+```
+npm install --save-dev jest
+```
+
+ No `package.json`, deixe um script semelhante a:
+
+```
+"scripts": {
+  "test": "jest",
+  "test:coverage": "jest --coverage"
+}
+```
