@@ -54,3 +54,17 @@ https://github.com/pauloandrehxh/arena-ufrn
  Esses recursos são úteis para encontrar erros na lógica dos serviços e controladores da API sem precisar adicionar vários `console.log()` ao código.
 
  **Link:**  Documentação do Debugger do IntelliJ IDEA
+
+
+ ## 5\. Tutorial de CRUD e testes
+
+ Um material relacionado diretamente à stack escolhida é o exemplo oficial do Prisma para criação de uma API REST com **Node.js, Express e Prisma**. O tutorial apresenta a construção de uma aplicação REST e suas operações de acesso aos dados.  Prisma 1
+
+ Além disso, o próprio projeto oficial de exemplos do Prisma possui um exemplo de **Express + Prisma + Jest + Supertest**, mostrando como realizar testes automatizados em uma API.  GitHub+1
+
+ **Links:**
+
+ - Tutorial de API REST com Express e Prisma  — apresenta a construção de uma API utilizando Node.js, Express e Prisma.
+- Exemplo oficial de testes com Express, Prisma, Jest e Supertest  — mostra testes automatizados de uma aplicação Express utilizando Prisma e Supertest.
+
+ Esses materiais são particularmente relacionados ao Arena UFRN porque o projeto também utiliza Express, Prisma, CRUD e testes automatizados.  GitHub
