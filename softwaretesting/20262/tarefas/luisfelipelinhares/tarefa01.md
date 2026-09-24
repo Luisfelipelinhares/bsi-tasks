@@ -31,3 +31,16 @@ https://github.com/pauloandrehxh/arena-ufrn
 - **Gerenciador de pacotes:** pnpm.
 
  Essa escolha também está alinhada à implementação atual do repositório Arena UFRN, que já possui frontend em React/Vite, backend em Node.js/Express, SQLite com Prisma e testes com Jest e Supertest.  GitHub
+
+  ## 3\. Framework de Testes de Unidade — Jest
+
+ O **Jest** é um framework de testes para JavaScript, desenvolvido com foco em simplicidade. Ele permite criar testes, fazer asserções com `expect`, utilizar mocks e executar os testes de maneira isolada. A documentação oficial disponibiliza suporte para projetos JavaScript, Node.js, React e outras tecnologias.  Jest+1
+
+ No Arena UFRN, o Jest já está sendo utilizado para os testes automatizados do backend.  GitHub
+
+ **Resumo:** Jest fornece uma estrutura completa para escrever e executar testes automatizados em JavaScript, sendo adequado para testar funções, serviços e outras partes do backend.
+
+ **Links:**
+
+ - Documentação oficial do Jest
+- Site oficial do Jest
