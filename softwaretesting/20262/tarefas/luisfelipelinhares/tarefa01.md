@@ -68,3 +68,15 @@ https://github.com/pauloandrehxh/arena-ufrn
 - Exemplo oficial de testes com Express, Prisma, Jest e Supertest  — mostra testes automatizados de uma aplicação Express utilizando Prisma e Supertest.
 
  Esses materiais são particularmente relacionados ao Arena UFRN porque o projeto também utiliza Express, Prisma, CRUD e testes automatizados.  GitHub
+
+ ## 6\. Mock Objects em Testes de Unidade
+
+ **Mock Objects** são objetos simulados utilizados durante os testes para substituir dependências reais. Em vez de um teste acessar diretamente um banco de dados, uma API externa ou outro serviço, podemos criar um mock que imita o comportamento dessa dependência.
+
+ Por exemplo, ao testar o serviço de usuários, podemos simular uma resposta do Prisma sem realmente consultar o SQLite. Dessa forma, o teste fica mais rápido, previsível e isolado.
+
+ O Mockito é um exemplo de framework de mocking bastante utilizado no ecossistema Java. No JavaScript/Jest, o próprio Jest possui recursos de mock, e a documentação do Prisma também apresenta estratégias para criar mocks do Prisma Client durante testes unitários.  GitHub+1
+
+ **Resumo:** mocks substituem dependências reais durante o teste, permitindo testar apenas o comportamento do componente que está sendo analisado. No Arena UFRN, isso pode ser útil principalmente para testar os serviços sem depender diretamente do banco SQLite.\
+ :::
+ Abaixo está um roteiro **passo a passo, pensado para terceiros**, para cumprir os itens 3–8 no projeto `arena-ufrn`, assumindo **Node.js + Jest**. Como o repositório é externo, os comandos devem ser executados na cópia local do projeto.
