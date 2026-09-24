@@ -109,3 +109,19 @@ npm install --save-dev jest
   "test:coverage": "jest --coverage"
 }
 ```
+## 2. Executar os testes
+
+Execute o comando abaixo no terminal:
+
+npm test
+
+
+Após a execução, guarde a saída real apresentada pelo terminal.
+
+Um exemplo de saída é:
+
+Test Suites: 1 passed, 1 total
+Tests:       7 passed, 7 total
+Snapshots:   0 total
+Time:        0.385 s, estimated 1 s
+Ran all test suites.
