@@ -15,3 +15,19 @@ https://github.com/pauloandrehxh/arena-ufrn
  No projeto Arena UFRN, os testes de unidade podem ser utilizados, por exemplo, para verificar as regras presentes nos serviços de usuários e quadras sem depender diretamente da interface ou de outros componentes.
 
  **Resumo:** testes de unidade permitem verificar componentes individualmente, tornando a identificação de erros mais rápida e facilitando a manutenção e evolução do sistema.
+
+ ## 2\. Linguagem de programação e stack
+
+ Para o projeto, a stack escolhida é:
+
+ - **Linguagem:** JavaScript.
+- **Runtime:** Node.js.
+- **Backend:** Express.
+- **Frontend:** React + Vite.
+- **Banco de dados:** SQLite.
+- **ORM:** Prisma.
+- **Testes:** Jest.
+- **Testes HTTP:** Supertest.
+- **Gerenciador de pacotes:** pnpm.
+
+ Essa escolha também está alinhada à implementação atual do repositório Arena UFRN, que já possui frontend em React/Vite, backend em Node.js/Express, SQLite com Prisma e testes com Jest e Supertest.  GitHub
